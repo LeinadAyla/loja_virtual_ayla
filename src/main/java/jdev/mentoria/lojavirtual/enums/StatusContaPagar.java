@@ -5,7 +5,9 @@ public enum StatusContaPagar {
 	COBRANCA("Pagar"),
 	VENCIDA("Vencida"),
 	ABERTA("Aberta"),
-	QUITADA("quitada"),
+	QUITADA("Quitada"),
+	ALUGUEL("Aluguel"),
+	FUNCIONARIO("Funcionario"),
 	NEGOCIADA("Renegociada");
 	
 	
