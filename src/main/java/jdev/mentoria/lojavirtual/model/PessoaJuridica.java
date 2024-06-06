@@ -13,7 +13,7 @@ public class PessoaJuridica extends Pessoa {
     @Column(nullable = false)
     private String cnpj;
     
-    @Column(nullable = true)
+    @Column(nullable = false)
     private String inscEstadual;
     
     @Column(nullable = true)
@@ -28,5 +28,53 @@ public class PessoaJuridica extends Pessoa {
     @Column(nullable = true)
     private String categoria;
 
-    // Getters and setters...
+	public String getCnpj() {
+		return cnpj;
+	}
+
+	public void setCnpj(String cnpj) {
+		this.cnpj = cnpj;
+	}
+
+	public String getInscEstadual() {
+		return inscEstadual;
+	}
+
+	public void setInscEstadual(String inscEstadual) {
+		this.inscEstadual = inscEstadual;
+	}
+
+	public String getInscMunicipal() {
+		return inscMunicipal;
+	}
+
+	public void setInscMunicipal(String inscMunicipal) {
+		this.inscMunicipal = inscMunicipal;
+	}
+
+	public String getNomeFantasia() {
+		return nomeFantasia;
+	}
+
+	public void setNomeFantasia(String nomeFantasia) {
+		this.nomeFantasia = nomeFantasia;
+	}
+
+	public String getRazaoSocial() {
+		return razaoSocial;
+	}
+
+	public void setRazaoSocial(String razaoSocial) {
+		this.razaoSocial = razaoSocial;
+	}
+
+	public String getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(String categoria) {
+		this.categoria = categoria;
+	}
+
+   
 }
